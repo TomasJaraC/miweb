@@ -1,4 +1,5 @@
 import re
+import subprocess
 
 def gmail_finder(mail):
     patron = r"\b[\w.-]+@gmail.com"
@@ -10,3 +11,5 @@ def gmail_finder(mail):
 
 
 print(gmail_finder("tomas_tuprofeonline@gmail.com"))
+
+subprocess.run(["date"])
